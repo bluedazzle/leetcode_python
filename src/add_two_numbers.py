@@ -1,5 +1,9 @@
 # coding: utf-8
 
+
+# author: RaPoSpectre
+# time: 2016-09-20
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
