@@ -7,6 +7,6 @@
 
 
 [1]: https://leetcode.com/problems/two-sum/
-[2]: https://github.com/bluedazzle/leetcode_python/src/two_sum.py
+[2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
 [3]: https://leetcode.com/problems/add-two-numbers
-[4]: https://github.com/bluedazzle/leetcode_python/src/add_two_numbers.py
+[4]: https://github.com/bluedazzle/leetcode_python/blob/master/src/add_two_numbers.py
