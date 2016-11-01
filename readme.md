@@ -24,4 +24,4 @@
 [9]: https://leetcode.com/problems/longest-palindromic-substring/
 [10]: https://github.com/bluedazzle/leetcode_python/blob/master/src/longest_palindromic_substring.py
 [11]: https://leetcode.com/problems/zigzag-conversion/
-[12]: https://github.com/bluedazzle/leetcode_python/blob/master/src/zigzag_conversion.py.py
+[12]: https://github.com/bluedazzle/leetcode_python/blob/master/src/zigzag_conversion.py
