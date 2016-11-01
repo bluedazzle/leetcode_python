@@ -2,3 +2,5 @@
 *.pyc
 *.pyo
 fabfile.py
+src/me.py
+src/*.bmp
