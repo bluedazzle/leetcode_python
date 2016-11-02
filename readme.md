@@ -14,6 +14,7 @@
 **tips: 以每 (2 * numRows - 2) 个字符串为一组进行操作,最后一组不足 (2 * numRows - 2) 个字符用特殊字符补齐,最后返回前再将特殊字符去掉**
 #### 7. [Reverse Integer][13]: [Solution][14]
 #### 8. [String to Integer (atoi)][15]: [Solution][16]
+#### 9. [Palindrome Number)][17]: [Solution][18]
 
 
 [1]: https://leetcode.com/problems/two-sum/
@@ -32,3 +33,5 @@
 [14]: https://github.com/bluedazzle/leetcode_python/blob/master/src/reverse_integer.py
 [15]: https://leetcode.com/problems/string-to-integer-atoi/
 [16]: https://github.com/bluedazzle/leetcode_python/blob/master/src/string_to_integer.py
+[17]: https://leetcode.com/problems/palindrome-number/
+[18]: https://github.com/bluedazzle/leetcode_python/blob/master/src/palindrome_number.py
