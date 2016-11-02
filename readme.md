@@ -13,6 +13,7 @@
 #### 6. [ZigZag Conversion][11]:[Solution][12]
 **tips: 以每 (2 * numRows - 2) 个字符串为一组进行操作,最后一组不足 (2 * numRows - 2) 个字符用特殊字符补齐,最后返回前再将特殊字符去掉**
 #### 7. [Reverse Integer][13]: [Solution][14]
+#### 8. [String to Integer (atoi)][15]: [Solution][16]
 
 
 [1]: https://leetcode.com/problems/two-sum/
@@ -29,3 +30,5 @@
 [12]: https://github.com/bluedazzle/leetcode_python/blob/master/src/zigzag_conversion.py
 [13]: https://leetcode.com/problems/reverse-integer/
 [14]: https://github.com/bluedazzle/leetcode_python/blob/master/src/reverse_integer.py
+[15]: https://leetcode.com/problems/string-to-integer-atoi/
+[16]: https://github.com/bluedazzle/leetcode_python/blob/master/src/string_to_integer.py
