@@ -14,7 +14,9 @@
 **tips: 以每 (2 * numRows - 2) 个字符串为一组进行操作,最后一组不足 (2 * numRows - 2) 个字符用特殊字符补齐,最后返回前再将特殊字符去掉**
 #### 7. [Reverse Integer][13]: [Solution][14]
 #### 8. [String to Integer (atoi)][15]: [Solution][16]
-#### 9. [Palindrome Number)][17]: [Solution][18]
+#### 9. [Palindrome Number][17]: [Solution][18]
+#### 10. [Regular Expression Matching][19]: [Solution][20]
+**tips: 用动态规划的思路可以解, 递归 Python 会 TLE. 用 re 库可以一句话解决: (return re.match(r'^$'.format(p), s)) 不过不推荐.
 
 
 [1]: https://leetcode.com/problems/two-sum/
@@ -35,3 +37,5 @@
 [16]: https://github.com/bluedazzle/leetcode_python/blob/master/src/string_to_integer.py
 [17]: https://leetcode.com/problems/palindrome-number/
 [18]: https://github.com/bluedazzle/leetcode_python/blob/master/src/palindrome_number.py
+[19]: https://leetcode.com/problems/regular-expression-matching/
+[20]: https://github.com/bluedazzle/leetcode_python/blob/master/src/regular_expression_matching.py
