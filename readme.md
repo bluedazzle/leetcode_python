@@ -16,7 +16,7 @@
 #### 8. [String to Integer (atoi)][15]: [Solution][16]
 #### 9. [Palindrome Number][17]: [Solution][18]
 #### 10. [Regular Expression Matching][19]: [Solution][20]
-**tips: 用动态规划的思路可以解, 递归 Python 会 TLE. 用 re 库可以一句话解决: (return re.match(r'^$'.format(p), s)) 不过不推荐.
+**tips: 用动态规划的思路可以解, 递归 Python 会 TLE. 用 re 库可以一句话解决: (return re.match(r'^{0}$'.format(p), s)) 不过不推荐.**
 
 
 [1]: https://leetcode.com/problems/two-sum/
