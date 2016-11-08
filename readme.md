@@ -1,11 +1,12 @@
 # leetcode python solution
 
-## Algorithms
+## Algorithms 
+(:100: 代表答主提交答案时在前 100 %)
 
-#### 1. [Two Sum][1]: [Solution][2]
-#### 2. [Add Two Numbers][3]: [Solution][4]
+#### 1. [Two Sum][1]: [Solution][2] 
+#### 2. [Add Two Numbers][3]: [Solution][4] :100:
 #### 3. [Longest Substring Without Repeating Characters][5]: [Solution][6]
-#### 4. [Median of Two Sorted Arrays][7]: [Solution][8]
+#### 4. [Median of Two Sorted Arrays][7]: [Solution][8] :100:
 #### 5. [Longest Palindromic Substring][9]: [Solution][10]
 (这道题对 Python 有毒, 只要时间复杂度大于等于 O(n2) 绝对 TLE, 其它语言 O(n3) 也能过...)  
 
@@ -17,7 +18,7 @@
 #### 9. [Palindrome Number][17]: [Solution][18]
 #### 10. [Regular Expression Matching][19]: [Solution][20]
 **tips: 用[动态规划][21]的思路可以解, 递归 Python 会 TLE. 用 re 库可以一句话解决: (return re.match(r'^{0}$'.format(p), s)) 不过不推荐.**
-#### 11. [Container With Most Water][22]: [Solution][23] 
+#### 11. [Container With Most Water][22]: [Solution][23] :100:
 **tips: bf 做复杂度 O(n2) Python 会 TLE. 用两个游标分别从数组首位出发谁小谁移动, 纪录其中最大值, 复杂度 O(n)**
 #### 12. [Integer to Roman][24]: [Solution][25]
 #### 13. [Roman to Integer][26]: [Solution][27] :100:
