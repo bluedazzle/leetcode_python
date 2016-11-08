@@ -20,6 +20,7 @@
 #### 11. [Container With Most Water][22]: [Solution][23] 
 **tips: bf 做复杂度 O(n2) Python 会 TLE. 用两个游标分别从数组首位出发谁小谁移动, 纪录其中最大值, 复杂度 O(n)**
 #### 12. [Integer to Roman][24]: [Solution][25]
+#### 13. [Roman to Integer][26]: [Solution][27] :100:
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -46,3 +47,5 @@
 [23]: https://github.com/bluedazzle/leetcode_python/blob/master/src/container_with_most_water.py
 [24]: https://leetcode.com/problems/integer-to-roman/
 [25]: https://github.com/bluedazzle/leetcode_python/blob/master/src/integer_to_roman.py
+[26]: https://leetcode.com/problems/roman-to-integer/
+[27]: https://github.com/bluedazzle/leetcode_python/blob/master/src/roman_to_integer.py
