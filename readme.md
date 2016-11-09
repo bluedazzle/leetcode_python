@@ -22,6 +22,8 @@
 **tips: bf 做复杂度 O(n2) Python 会 TLE. 用两个游标分别从数组首位出发谁小谁移动, 纪录其中最大值, 复杂度 O(n)**
 #### 12. [Integer to Roman][24]: [Solution][25]
 #### 13. [Roman to Integer][26]: [Solution][27] :100:
+#### 14. [Longest Common Prefix][28]: [Solution][29]
+**动态规划思路: 复杂度 O(n2), 状态是: n 个字符串 n <= len(strs) 的最长公共前缀, 转移方程: D(n) = min{D(n-1), L(j)}, 0 <= j <= min{D(n-1), len(str(n))} (大概是这样)**
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -50,3 +52,5 @@
 [25]: https://github.com/bluedazzle/leetcode_python/blob/master/src/integer_to_roman.py
 [26]: https://leetcode.com/problems/roman-to-integer/
 [27]: https://github.com/bluedazzle/leetcode_python/blob/master/src/roman_to_integer.py
+[28]: https://leetcode.com/problems/longest-common-prefix/
+[29]: https://github.com/bluedazzle/leetcode_python/blob/master/src/longest_common_prefix.py
