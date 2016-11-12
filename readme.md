@@ -26,8 +26,10 @@
 **动态规划思路: 复杂度 O(n2), 状态是: n 个字符串 n <= len(strs) 的最长公共前缀, 转移方程: D(n) = min{D(n-1), L(j)}, 0 <= j <= min{D(n-1), len(str(n))} (大概是这样)**
 #### 15. [3Sum][30]: [Solution][31] 
 **tips: [K Sum Problem][32]**
-#### 16. [3Sum Closest][32]: [Solution][33]
+#### 16. [3Sum Closest][33]: [Solution][34]
 **tips: 可以看作是有个固定数字的 4 Sum 问题,稍微改下 3 Sum 代码即可, 时间复杂度不增加 O(nlogn)**
+#### 17. [Letter Combinations of a Phone Number][35]: [Solution][36]
+**tips: 简单替换后直接算 kronecker 积, 复杂度 O(n)**
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -63,3 +65,5 @@
 [32]: http://blog.csdn.net/nanjunxiao/article/details/12524405
 [33]: https://leetcode.com/problems/3sum-closest/
 [34]: https://github.com/bluedazzle/leetcode_python/blob/master/src/3sum_closest.py
+[35]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+[36]: https://github.com/bluedazzle/leetcode_python/blob/master/src/letter_combinations_of_a_phone_number.py
