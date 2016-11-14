@@ -68,5 +68,5 @@
 [34]: https://github.com/bluedazzle/leetcode_python/blob/master/src/3sum_closest.py
 [35]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 [36]: https://github.com/bluedazzle/leetcode_python/blob/master/src/letter_combinations_of_a_phone_number.py
-[36]: https://leetcode.com/problems/4sum/
-[36]: https://github.com/bluedazzle/leetcode_python/blob/master/src/4sum.py
+[37]: https://leetcode.com/problems/4sum/
+[38]: https://github.com/bluedazzle/leetcode_python/blob/master/src/4sum.py
