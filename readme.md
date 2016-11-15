@@ -31,6 +31,7 @@
 #### 17. [Letter Combinations of a Phone Number][35]: [Solution][36]
 **tips: 简单替换后直接算 kronecker 积, 复杂度 O(n)**
 #### 18. [4Sum][37]: [Solution][38]
+#### 19. [Remove Nth Node From End of List][39]: [Solution][40]
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -70,3 +71,5 @@
 [36]: https://github.com/bluedazzle/leetcode_python/blob/master/src/letter_combinations_of_a_phone_number.py
 [37]: https://leetcode.com/problems/4sum/
 [38]: https://github.com/bluedazzle/leetcode_python/blob/master/src/4sum.py
+[39]: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+[40]: https://github.com/bluedazzle/leetcode_python/blob/master/src/remove_nth_node_from_end_of_list.py
