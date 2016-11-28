@@ -34,6 +34,8 @@
 #### 19. [Remove Nth Node From End of List][39]: [Solution][40]
 #### 20. [Valid Parentheses][41]: [Solution][42]
 #### 21. [Merge Two Sorted Lists][43]: [Solution][44]
+#### 22. [Generate Parentheses][45]: [Solution][46]
+**tips: backtracking**
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -79,3 +81,5 @@
 [42]: https://github.com/bluedazzle/leetcode_python/blob/master/src/valid_parentheses.py
 [43]: https://leetcode.com/problems/merge-two-sorted-lists/
 [44]: https://github.com/bluedazzle/leetcode_python/blob/master/src/merge_two_sorted_lists.py
+[45]: https://leetcode.com/problems/generate-parentheses/
+[46]: https://github.com/bluedazzle/leetcode_python/blob/master/src/generate_parentheses.py
