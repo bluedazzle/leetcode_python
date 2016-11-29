@@ -36,6 +36,9 @@
 #### 21. [Merge Two Sorted Lists][43]: [Solution][44]
 #### 22. [Generate Parentheses][45]: [Solution][46]
 **tips: backtracking**
+#### 23. [Merge k Sorted Lists][47]: [Solution][48]
+**tips: [分治法][49] [归并排序][50]**
+
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -83,3 +86,7 @@
 [44]: https://github.com/bluedazzle/leetcode_python/blob/master/src/merge_two_sorted_lists.py
 [45]: https://leetcode.com/problems/generate-parentheses/
 [46]: https://github.com/bluedazzle/leetcode_python/blob/master/src/generate_parentheses.py
+[47]: https://leetcode.com/problems/merge-k-sorted-lists/
+[48]: https://github.com/bluedazzle/leetcode_python/blob/master/src/merge_k_sorted_lists.py
+[49]: https://zh.wikipedia.org/wiki/%E5%88%86%E6%B2%BB%E6%B3%95
+[50]: https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F
