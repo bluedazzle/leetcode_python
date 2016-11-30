@@ -38,7 +38,7 @@
 **tips: backtracking**
 #### 23. [Merge k Sorted Lists][47]: [Solution][48]
 **tips: [分治法][49] [归并排序][50]**
-
+#### 24. [Swap Nodes in Pairs][51]: [Solution][52]
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -90,3 +90,5 @@
 [48]: https://github.com/bluedazzle/leetcode_python/blob/master/src/merge_k_sorted_lists.py
 [49]: https://zh.wikipedia.org/wiki/%E5%88%86%E6%B2%BB%E6%B3%95
 [50]: https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F
+[51]: https://leetcode.com/problems/swap-nodes-in-pairs/
+[52]: https://github.com/bluedazzle/leetcode_python/blob/master/src/swap_nodes_in_pairs.py
