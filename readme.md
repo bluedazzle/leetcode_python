@@ -39,6 +39,7 @@
 #### 23. [Merge k Sorted Lists][47]: [Solution][48]
 **tips: [分治法][49] [归并排序][50]**
 #### 24. [Swap Nodes in Pairs][51]: [Solution][52]
+#### 25. [Reverse Nodes in k-Group][53]: [Solution][54]
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -92,3 +93,5 @@
 [50]: https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F
 [51]: https://leetcode.com/problems/swap-nodes-in-pairs/
 [52]: https://github.com/bluedazzle/leetcode_python/blob/master/src/swap_nodes_in_pairs.py
+[53]: https://leetcode.com/problems/reverse-nodes-in-k-group/
+[54]: https://github.com/bluedazzle/leetcode_python/blob/master/src/reverse_nodes_in_k-group.py
