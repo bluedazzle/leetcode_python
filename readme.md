@@ -40,6 +40,8 @@
 **tips: [分治法][49] [归并排序][50]**
 #### 24. [Swap Nodes in Pairs][51]: [Solution][52]
 #### 25. [Reverse Nodes in k-Group][53]: [Solution][54]
+#### 26. [Remove Duplicates from Sorted Array][55]: [Solution][56]
+**tips: 虽然只是让返回去除重复后的数组长度,但是oj还是会判断代码是否真的去掉的是重复的元素,否则即使你返回的长度正确oj依然会 WA**
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -95,3 +97,5 @@
 [52]: https://github.com/bluedazzle/leetcode_python/blob/master/src/swap_nodes_in_pairs.py
 [53]: https://leetcode.com/problems/reverse-nodes-in-k-group/
 [54]: https://github.com/bluedazzle/leetcode_python/blob/master/src/reverse_nodes_in_k-group.py
+[55]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+[56]: https://github.com/bluedazzle/leetcode_python/blob/master/src/remove_duplicates_from_sorted_array.py
