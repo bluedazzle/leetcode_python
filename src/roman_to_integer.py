@@ -40,9 +40,10 @@ class Solution(object):
         last = 0
         for i in s.upper():
             num = roman_dict[i]
-            total += num
             if num > last:
-                total -= 2 * last
+                total -= last
+            else:
+                total += num
             last = num
         return total
 
