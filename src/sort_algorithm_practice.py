@@ -38,6 +38,7 @@ class TestSort(object):
         self.func = func
 
     def run(self):
+        print 'Starting test {0}:'.format(self.func.__name__)
         if not self.func:
             return None
         flag = True
@@ -55,6 +56,9 @@ class TestSort(object):
         return True
 
     def __call__(self, *args, **kwargs):
+        func = args[0]
+        if func:
+            self.func = func
         self.run()
 
 
@@ -156,7 +160,8 @@ def quick_sort(nums):
     return left + privot_list + right
 
 
+test = TestSort(bubble_sort)
 
-# TestSort(quick_sort)()
+test(quick_sort)
 
 # print quick_sort([5, 3, 2, 4, 6, 1, 8, 4, 2])
