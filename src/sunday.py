@@ -33,4 +33,4 @@ def sunday(s, model):
     return match
 
 
-# print sunday('abxdcsxxefre', 'xx')
+# print sunday('123', '4')
