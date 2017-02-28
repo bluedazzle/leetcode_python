@@ -42,7 +42,8 @@
 #### 25. [Reverse Nodes in k-Group][53]: [Solution][54]
 #### 26. [Remove Duplicates from Sorted Array][55]: [Solution][56]
 **tips1: 虽然只是让返回去除重复后的数组长度,但是oj还是会判断代码是否真的去掉的是重复的元素,否则即使你返回的长度正确oj依然会 WA**  
-**tips2: 不能用`len(set(nums))` 一句完成,因为 set 申请了新的空间,而题目要求不能使用新的空间**
+**tips2: 不能用`len(set(nums))` 一句完成,因为 set 申请了新的空间,而题目要求不能使用新的空间** 
+#### 27. [Remove Element][57]: [Solution][58]
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/bluedazzle/leetcode_python/blob/master/src/two_sum.py
@@ -100,3 +101,5 @@
 [54]: https://github.com/bluedazzle/leetcode_python/blob/master/src/reverse_nodes_in_k-group.py
 [55]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 [56]: https://github.com/bluedazzle/leetcode_python/blob/master/src/remove_duplicates_from_sorted_array.py
+[57]: https://leetcode.com/problems/remove-element
+[58]: https://github.com/bluedazzle/leetcode_python/blob/master/src/remove_element.py

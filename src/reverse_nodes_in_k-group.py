@@ -1,8 +1,14 @@
 # Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+import copy
+
+
+class Node(object):
+    def __init__(self, data=None, next=None):
+        self.data = data
+        self.next = next
+
+
+link = Node(1, Node(2, Node(3, Node(4, Node(5, Node(6, Node(7, Node(8, Node(9)))))))))
 
 
 class Solution(object):
@@ -12,40 +18,45 @@ class Solution(object):
         :type k: int
         :rtype: ListNode
         """
-        # head = self.convert_to_list(head)
-        res = self.main(head, k)
-        print res
-        return self.convert_to_link(res)
+        if k == 1:
+            return head
+        pl = cur = head
+        h_list = []
+        tmpl = None
+        while 1:
+            for i in xrange(k):
+                if not pl:
+                    break
+                tmpl = pl
+                pl = pl.next
+            if not tmpl and not pl:
+                h_list.append(cur)
+                break
+            if not cur:
+                break
+            pre = cur
+            cur = cur.next
+            pre.next = None
+            while cur:
+                tmp = cur.next
+                cur.next = pre
+                pre = cur
+                cur = tmp
+                if cur == pl:
+                    h_list.append(pre)
+                    break
+        sp = Node(-1)
+        for itm in h_list:
+            sp.next = itm
+            while itm:
+                if not itm.next:
+                    sp = itm
+                itm = itm.next
 
-    def main(self, head, k, res=[]):
-        lh = len(head)
-        if lh < k:
-            res.extend(head)
-            return res
-        for i in xrange(k // 2):
-            head[i], head[k-i-1] = head[k-i-1], head[i]
-        res.extend(head[:k])
-        if lh > k:
-            self.main(head[k:], k, res)
-        return res
-
-    def convert_to_list(self, head):
-        res = []
-        while head:
-            res.append(head.val)
-            head = head.next
-        return res
-
-    def convert_to_link(self, res):
-        lh = head = ListNode(-1)
-        for itm in res:
-            head.next = ListNode(itm)
-            head = head.next
-        return lh.next
+        return h_list[0]
 
 
-h = Solution().reverseKGroup([1,2], 2)
-
-while h:
-    print h.val
-    h = h.next
+l = Solution().reverseKGroup(link, 4)
+while l:
+    print l.data
+    l = l.next
